@@ -1,0 +1,9 @@
+--- libquvi/libquvi.mk	2015-04-05 10:54:07.398139482 +0300
++++ libquvi/libquvi.mk.new	2015-05-28 21:27:15.149532264 +0300
+@@ -1,5 +1,5 @@
+ TARG = libquvi
+-DEPS = lua curl
++DEPS = lua curl sed
+ 
+ <$mkbuild/mk.common-noinst
+ 

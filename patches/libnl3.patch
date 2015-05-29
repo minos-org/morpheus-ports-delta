@@ -1,0 +1,8 @@
+--- libnl3/libnl3.mk	2015-05-28 21:31:21.176459299 +0300
++++ libnl3/libnl3.mk.new	2015-05-28 21:31:54.177852386 +0300
+@@ -1,4 +1,5 @@
+ TARG = libnl3
++DEPS = bison
+ 
+ <$mkbuild/mk.common
+ 

@@ -1,0 +1,9 @@
+--- libpng/mkfile	2015-05-28 20:56:05.499222377 +0300
++++ libpng/mkfile.new	2015-05-28 20:56:16.487357159 +0300
+@@ -2,5 +2,5 @@
+ 
+ <v.mk
+ src = libpng-$v
+-url = http://optimate.dl.sourceforge.net/project/libpng/libpng16/$v/libpng-$v.tar.xz
++url = http://ftp.lfs-matrix.net/pub/blfs/conglomeration/libpng/libpng-$v.tar.xz
+ mkfile = ../libpng.mk

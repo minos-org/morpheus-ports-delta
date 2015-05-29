@@ -1,0 +1,9 @@
+--- st/mkfile	2015-04-05 10:54:07.404139569 +0300
++++ st/mkfile.new	2015-05-29 03:43:30.607414318 +0300
+@@ -1,5 +1,5 @@
+ <$mkbuild/mk.3rdparty
+ 
+ src = st
+-git = git://git.suckless.org/st
++git = http://git.suckless.org/st
+ mkfile = ../st.mk

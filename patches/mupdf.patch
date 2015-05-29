@@ -1,0 +1,9 @@
+--- mupdf/mkfile	2015-04-05 10:54:07.401139527 +0300
++++ mupdf/mkfile.new	2015-05-29 02:14:59.472730702 +0300
+@@ -2,5 +2,5 @@
+ 
+ <v.mk
+ src = mupdf-$v-source
+-url = http://www.mupdf.com/downloads/mupdf-$v-source.tar.gz
++url = http://pkgs.fedoraproject.org/repo/pkgs/mupdf/mupdf-1.4-source.tar.gz/0f6840a7020db0c833b0c090ca1864ec/mupdf-$v-source.tar.gz
+ mkfile = ../mupdf.mk

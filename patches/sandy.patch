@@ -1,0 +1,9 @@
+--- sandy/mkfile	2015-04-05 10:54:07.404139569 +0300
++++ sandy/mkfile.new	2015-05-29 02:46:22.923744865 +0300
+@@ -1,5 +1,5 @@
+ <$mkbuild/mk.3rdparty
+ 
+ src = sandy
+-git = git://git.suckless.org/sandy
++git = http://git.suckless.org/sandy
+ mkfile = ../sandy.mk

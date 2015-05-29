@@ -1,0 +1,9 @@
+--- linux/linux.mk	2015-04-05 10:54:07.400139512 +0300
++++ linux/linux.mk.new	2015-05-28 21:39:52.943538872 +0300
+@@ -1,5 +1,6 @@
+ # make deps: bash, bc, perl
+ TARG = linux bzImage.config
++DEPS = bc
+ INSTALL_OTHER1 = arch/x86/boot/bzImage bzImage.config System.map
+ INSTALL_OTHER1_DIR = /boot
+ 

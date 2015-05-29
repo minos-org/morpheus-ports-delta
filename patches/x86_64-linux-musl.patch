@@ -1,0 +1,9 @@
+--- x86_64-linux-musl/mkfile	2015-04-05 10:54:07.406139598 +0300
++++ x86_64-linux-musl/mkfile.new	2015-05-29 03:58:52.597053314 +0300
+@@ -2,5 +2,5 @@
+ 
+ <v.mk
+ src = x86_64-linux-musl
+-url = http://dl.2f30.org/crossx86-x86_64-linux-musl-$v.tar.xz
++url = https://e82b27f594c813a5a4ea5b07b06f16c3777c3b8c.googledrive.com/host/0BwnS5DMB0YQ6bDhPZkpOYVFhbk0/musl-1.1.1/crossx86-x86_64-linux-musl-$v.tar.xz
+ mkfile = ../x86_64-linux-musl.mk

@@ -1,0 +1,9 @@
+--- pigz/mkfile	2015-05-29 02:24:37.690108948 +0300
++++ pigz/mkfile.new	2015-05-29 02:24:34.859072814 +0300
+@@ -2,5 +2,5 @@
+ 
+ <v.mk
+ src = pigz-$v
+-url = http://zlib.net/pigz/pigz-$v.tar.gz
++url = http://pkgs.fedoraproject.org/repo/pkgs/pigz/pigz-2.3.1.tar.gz/e803f8bc0770c7a5e96dccb1d2dd2aab/pigz-$v.tar.gz
+ mkfile = ../pigz.mk

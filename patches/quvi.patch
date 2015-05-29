@@ -1,0 +1,9 @@
+--- quvi/quvi.mk	2015-04-05 10:54:07.404139569 +0300
++++ quvi/quvi.mk.new	2015-05-29 02:28:54.509385819 +0300
+@@ -1,5 +1,5 @@
+ TARG = quvi
+-DEPS = libquvi lua curl libressl zlib
++DEPS = libquvi lua curl libressl zlib sed
+ 
+ <$mkbuild/mk.common-noinst
+ 

@@ -1,0 +1,11 @@
+--- cacertificates/mkfile	2015-04-05 10:54:07.392139394 +0300
++++ cacertificates/mkfile.new	2015-05-28 20:42:49.874493309 +0300
+@@ -2,7 +2,7 @@
+ 
+ <v.mk
+ src = ca-certificates
+-url = http://ftp.debian.org/debian/pool/main/c/ca-certificates/ca-certificates_$v.tar.xz
++url = http://ftp.acc.umu.se/mirror/cdimage/snapshot/Debian/pool/main/c/ca-certificates/ca-certificates_$v.tar.xz
+ mkfile = ../cacertificates.mk
+ 
+ patches = \
