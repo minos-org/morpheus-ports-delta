@@ -1,0 +1,14 @@
+Dependency broken, openssl
+
+2015-05-30 19:53:50 (2.76 MB/s) - openssl-1.0.1g.tar.gz saved [4509047/4509047]
+
+patching Makefile.org
+patching Makefile.shared
+patch: unlink 'dev/null': No such file or directory
+removing dev/null
+mk: mkdir -p openssl-1.0.1g ...  : exit status=exit(1)
+mk: cd /var/lib/morpheus/mkbuild/../ports/openssl env ...  : exit status=exit(1)
+mk: mkdir -p cgit-0.10.1 ...  : exit status=exit(1)
+mk: pkg=$(basename `pwd`) rm ...  : exit status=exit(1)
+mk: for t in ...  : exit status=exit(1)
+mk: cd ports if ...  : exit status=exit(1)

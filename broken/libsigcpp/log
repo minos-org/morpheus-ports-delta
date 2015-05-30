@@ -1,0 +1,49 @@
+libtool: install: /usr/bin/install .libs/libsigc-2.0.a /var/lib/morpheus/ports/libsigcpp/libsigc++-2.3.1/lib/lib/libsigc-2.0.a
+libtool: install: chmod 644 /var/lib/morpheus/ports/libsigcpp/libsigc++-2.3.1/lib/lib/libsigc-2.0.a
+libtool: install: i486-musl-linux-ranlib /var/lib/morpheus/ports/libsigcpp/libsigc++-2.3.1/lib/lib/libsigc-2.0.a
+libtool: install: warning: remember to run `libtool --finish /lib'
+make[3]: Leaving directory `/var/lib/morpheus/ports/libsigcpp/libsigc++-2.3.1/sigc++'
+make[2]: Leaving directory `/var/lib/morpheus/ports/libsigcpp/libsigc++-2.3.1/sigc++'
+make[1]: Leaving directory `/var/lib/morpheus/ports/libsigcpp/libsigc++-2.3.1/sigc++'
+Making install in tests
+make[1]: Entering directory `/var/lib/morpheus/ports/libsigcpp/libsigc++-2.3.1/tests'
+make[2]: Entering directory `/var/lib/morpheus/ports/libsigcpp/libsigc++-2.3.1/tests'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/var/lib/morpheus/ports/libsigcpp/libsigc++-2.3.1/tests'
+make[1]: Leaving directory `/var/lib/morpheus/ports/libsigcpp/libsigc++-2.3.1/tests'
+Making install in examples
+make[1]: Entering directory `/var/lib/morpheus/ports/libsigcpp/libsigc++-2.3.1/examples'
+i486-musl-linux-g++ -DHAVE_CONFIG_H   -I.. -I.. -D_BSD_SOURCE -D_GNU_SOURCE -Wall -g -O2 -MT hello_world.o -MD -MP -MF .deps/hello_world.Tpo -c -o hello_world.o hello_world.cc
+i486-musl-linux-g++ -DHAVE_CONFIG_H   -I.. -I.. -D_BSD_SOURCE -D_GNU_SOURCE -Wall -g -O2 -MT member_method.o -MD -MP -MF .deps/member_method.Tpo -c -o member_method.o member_method.cc
+mv -f .deps/hello_world.Tpo .deps/hello_world.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link i486-musl-linux-g++ -Wall -g -O2  -static -s -Wl,--gc-sections -Wl,-z,relro,-z,now -o hello_world hello_world.o ../sigc++/libsigc-2.0.la 
+libtool: link: warning: library `/opt/i486-linux-musl/bin/../lib/gcc/i486-linux-musl/4.9.2/../../../../i486-linux-musl/lib/libstdc++.la' was moved.
+libtool: link: warning: library `/opt/i486-linux-musl/bin/../lib/gcc/i486-linux-musl/4.9.2/../../../../i486-linux-musl/lib/libstdc++.la' was moved.
+libtool: link: i486-musl-linux-g++ -Wall -g -O2 -s -Wl,--gc-sections -Wl,-z -Wl,relro -Wl,-z -Wl,now -o hello_world hello_world.o  ../sigc++/.libs/libsigc-2.0.a /opt/i486-linux-musl/bin/../lib/
+gcc/i486-linux-musl/4.9.2/../../../../i486-linux-musl/lib/libstdc++.so -lm
+mv -f .deps/member_method.Tpo .deps/member_method.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link i486-musl-linux-g++ -Wall -g -O2  -static -s -Wl,--gc-sections -Wl,-z,relro,-z,now -o member_method member_method.o ../sigc++/libsigc-2.0.la 
+libtool: link: warning: library `/opt/i486-linux-musl/bin/../lib/gcc/i486-linux-musl/4.9.2/../../../../i486-linux-musl/lib/libstdc++.la' was moved.
+libtool: link: warning: library `/opt/i486-linux-musl/bin/../lib/gcc/i486-linux-musl/4.9.2/../../../../i486-linux-musl/lib/libstdc++.la' was moved.
+libtool: link: i486-musl-linux-g++ -Wall -g -O2 -s -Wl,--gc-sections -Wl,-z -Wl,relro -Wl,-z -Wl,now -o member_method member_method.o  ../sigc++/.libs/libsigc-2.0.a /opt/i486-linux-musl/bin/../
+lib/gcc/i486-linux-musl/4.9.2/../../../../i486-linux-musl/lib/libstdc++.so -lm
+make[2]: Entering directory `/var/lib/morpheus/ports/libsigcpp/libsigc++-2.3.1/examples'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/var/lib/morpheus/ports/libsigcpp/libsigc++-2.3.1/examples'
+make[1]: Leaving directory `/var/lib/morpheus/ports/libsigcpp/libsigc++-2.3.1/examples'
+make[1]: Entering directory `/var/lib/morpheus/ports/libsigcpp/libsigc++-2.3.1'
+make[2]: Entering directory `/var/lib/morpheus/ports/libsigcpp/libsigc++-2.3.1'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/lib/pkgconfig" || /usr/bin/mkdir -p "/var/lib/morpheus/ports/libsigcpp/libsigc++-2.3.1/lib/lib/pkgconfig"
+test -z "/lib/sigc++-2.0/include" || /usr/bin/mkdir -p "/var/lib/morpheus/ports/libsigcpp/libsigc++-2.3.1/lib/lib/sigc++-2.0/include"
+ /usr/bin/install -m 644 sigc++-2.0.pc '/var/lib/morpheus/ports/libsigcpp/libsigc++-2.3.1/lib/lib/pkgconfig'
+ /usr/bin/install -m 644 sigc++config.h '/var/lib/morpheus/ports/libsigcpp/libsigc++-2.3.1/lib/lib/sigc++-2.0/include'
+make[2]: Leaving directory `/var/lib/morpheus/ports/libsigcpp/libsigc++-2.3.1'
+make[1]: Leaving directory `/var/lib/morpheus/ports/libsigcpp/libsigc++-2.3.1'
+mk: don't know how to make 'install' in /var/lib/morpheus/ports/libsigcpp/libsigc++-2.3.1
+mk: cd libsigc++-2.3.1 for ...  : exit status=exit(1)
+mk: pkg=$(basename `pwd`) rm ...  : exit status=exit(1)
+mk: for t in ...  : exit status=exit(1)
+mk: cd ports if ...  : exit status=exit(1)

@@ -1,0 +1,8 @@
+Cloning into 'sbase'...
+cmp: /var/lib/morpheus/ports/sbase/.cache-sbase.mk: No such file or directory
+ls: cannot access util/*.c: No such file or directory
+mk: don't know how to make 'util.a' in /var/lib/morpheus/ports/sbase/sbase
+mk: mkdir -p sbase ...  : exit status=exit(1)
+mk: pkg=$(basename `pwd`) rm ...  : exit status=exit(1)
+mk: for t in ...  : exit status=exit(1)
+mk: cd ports if ...  : exit status=exit(1)

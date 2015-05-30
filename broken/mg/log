@@ -1,0 +1,20 @@
+mg failed to build
+Cloning into 'mg-openbsd'...
+Hunk 1 FAILED.
+ 
+ CC?= gcc
+ CFLAGS+= -O2 -Wall -D_GNU_SOURCE -DFKEYS -DREGEX -DXKEYS
+-LDADD+= -lcurses
++LDADD+= -lncurses
+ 
+ SRCS= $(shell ls *.c)
+ OBJS= $(SRCS:.c=.o)
+patch: linux.c: No such file or directory
+patching Makefile
+patching def.h
+patching fileio.c
+patching linux.c
+mk: mkdir -p mg-openbsd ...  : exit status=exit(1)
+mk: pkg=$(basename `pwd`) rm ...  : exit status=exit(1)
+mk: for t in ...  : exit status=exit(1)
+mk: cd ports if ...  : exit status=exit(1)

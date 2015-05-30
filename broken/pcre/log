@@ -1,0 +1,49 @@
+    Build static libs ............... : yes
+    Use JIT in pcregrep ............. : no
+    Buffer size for pcregrep ........ : 20480
+    Link pcregrep with libz ......... : yes
+    Link pcregrep with libbz2 ....... : no
+    Link pcretest with libedit ...... : no
+    Link pcretest with libreadline .. : no
+    Valgrind support ................ : no
+    Code coverage ................... : no
+
+rm -f pcre_chartables.c
+ln -s ./pcre_chartables.c.dist pcre_chartables.c
+make  all-am
+make[1]: Entering directory `/var/lib/morpheus/ports/pcre/pcre-8.35'
+  CC       libpcre_la-pcre_byte_order.lo
+  CC       libpcre_la-pcre_compile.lo
+  CC       libpcre_la-pcre_config.lo
+  CC       libpcre_la-pcre_dfa_exec.lo
+  CC       libpcre_la-pcre_exec.lo
+  CC       libpcre_la-pcre_fullinfo.lo
+  CC       libpcre_la-pcre_get.lo
+  CC       libpcre_la-pcre_globals.lo
+  CC       libpcre_la-pcre_jit_compile.lo
+  CC       libpcre_la-pcre_maketables.lo
+  CC       libpcre_la-pcre_newline.lo
+  CC       libpcre_la-pcre_ord2utf8.lo
+  CC       libpcre_la-pcre_refcount.lo
+  CC       libpcre_la-pcre_string_utils.lo
+  CC       libpcre_la-pcre_study.lo
+  CC       libpcre_la-pcre_tables.lo
+  CC       libpcre_la-pcre_ucd.lo
+  CC       libpcre_la-pcre_valid_utf8.lo
+  CC       libpcre_la-pcre_version.lo
+  CC       libpcre_la-pcre_xclass.lo
+  CC       libpcre_la-pcre_chartables.lo
+  CC       libpcreposix_la-pcreposix.lo
+  CC       pcretest-pcretest.o
+  CC       pcretest-pcre_printint.o
+  CC       pcregrep-pcregrep.o
+  CCLD     libpcre.la
+  CCLD     libpcreposix.la
+  CCLD     pcretest
+  CCLD     pcregrep
+make[1]: Leaving directory `/var/lib/morpheus/ports/pcre/pcre-8.35'
+mk: don't know how to make 'install' in /var/lib/morpheus/ports/pcre/pcre-8.35
+mk: cd pcre-8.35 for ...  : exit status=exit(1)
+mk: pkg=$(basename `pwd`) rm ...  : exit status=exit(1)
+mk: for t in ...  : exit status=exit(1)
+mk: cd ports if ...  : exit status=exit(1)

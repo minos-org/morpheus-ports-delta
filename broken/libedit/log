@@ -1,0 +1,47 @@
+Making install in doc
+make[1]: Entering directory `/var/lib/morpheus/ports/libedit/libedit-20140213-3.1/doc'
+make[2]: Entering directory `/var/lib/morpheus/ports/libedit/libedit-20140213-3.1/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/share/man/man3'
+ /usr/bin/mkdir -p '/var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/share/man/man5'
+ /usr/bin/install -m 644 editline.3 '/var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/share/man/man3'
+ /usr/bin/install -m 644 editrc.5 '/var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/share/man/man5'
+make  install-data-hook
+make[3]: Entering directory `/var/lib/morpheus/ports/libedit/libedit-20140213-3.1/doc'
+(cd /var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/share/man/man3 && rm -f el_init.3 && ln -s editline.3 el_init.3)
+(cd /var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/share/man/man3 && rm -f el_end.3 && ln -s editline.3 el_end.3)
+(cd /var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/share/man/man3 && rm -f el_reset.3 && ln -s editline.3 el_reset.3)
+(cd /var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/share/man/man3 && rm -f el_gets.3 && ln -s editline.3 el_gets.3)
+(cd /var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/share/man/man3 && rm -f el_getc.3 && ln -s editline.3 el_getc.3)
+(cd /var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/share/man/man3 && rm -f el_push.3 && ln -s editline.3 el_push.3)
+(cd /var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/share/man/man3 && rm -f el_parse.3 && ln -s editline.3 el_parse.3)
+(cd /var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/share/man/man3 && rm -f el_set.3 && ln -s editline.3 el_set.3)
+(cd /var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/share/man/man3 && rm -f el_get.3 && ln -s editline.3 el_get.3)
+(cd /var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/share/man/man3 && rm -f el_source.3 && ln -s editline.3 el_source.3)
+(cd /var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/share/man/man3 && rm -f el_resize.3 && ln -s editline.3 el_resize.3)
+(cd /var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/share/man/man3 && rm -f el_line.3 && ln -s editline.3 el_line.3)
+(cd /var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/share/man/man3 && rm -f el_insertstr.3 && ln -s editline.3 el_insertstr.3)
+(cd /var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/share/man/man3 && rm -f el_deletestr.3 && ln -s editline.3 el_deletestr.3)
+(cd /var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/share/man/man3 && rm -f el_history_init.3 && ln -s editline.3 el_history_init.3)
+(cd /var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/share/man/man3 && rm -f el_history_end.3 && ln -s editline.3 el_history_end.3)
+(cd /var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/share/man/man3 && rm -f el_history.3 && ln -s editline.3 el_history.3)
+(cd /var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/share/man/man3 && rm -f el_tok_init.3 && ln -s editline.3 el_tok_init.3)
+(cd /var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/share/man/man3 && rm -f el_tok_end.3 && ln -s editline.3 el_tok_end.3)
+(cd /var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/share/man/man3 && rm -f el_tok_reset.3 && ln -s editline.3 el_tok_reset.3)
+(cd /var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/share/man/man3 && rm -f el_tok_line.3 && ln -s editline.3 el_tok_line.3)
+(cd /var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/share/man/man3 && rm -f el_tok_str.3 && ln -s editline.3 el_tok_str.3)
+make[3]: Leaving directory `/var/lib/morpheus/ports/libedit/libedit-20140213-3.1/doc'
+make[2]: Leaving directory `/var/lib/morpheus/ports/libedit/libedit-20140213-3.1/doc'
+make[1]: Leaving directory `/var/lib/morpheus/ports/libedit/libedit-20140213-3.1/doc'
+make[1]: Entering directory `/var/lib/morpheus/ports/libedit/libedit-20140213-3.1'
+make[2]: Entering directory `/var/lib/morpheus/ports/libedit/libedit-20140213-3.1'
+make[2]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/lib/pkgconfig'
+ /usr/bin/install -m 644 libedit.pc '/var/lib/morpheus/ports/libedit/libedit-20140213-3.1/lib/lib/pkgconfig'
+make[2]: Leaving directory `/var/lib/morpheus/ports/libedit/libedit-20140213-3.1'
+make[1]: Leaving directory `/var/lib/morpheus/ports/libedit/libedit-20140213-3.1'
+mk: don't know how to make 'install' in /var/lib/morpheus/ports/libedit/libedit-20140213-3.1
+mk: cd libedit-20140213-3.1 for ...  : exit status=exit(1)
+mk: pkg=$(basename `pwd`) rm ...  : exit status=exit(1)
+mk: for t in ...  : exit status=exit(1)
+mk: cd ports if ...  : exit status=exit(1)

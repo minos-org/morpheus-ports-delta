@@ -1,0 +1,19 @@
+ 12700K .......... .......... .......... .......... .......... 98% 43.1M 0s
+ 12750K .......... .......... .......... .......... .......... 98% 64.3M 0s
+ 12800K .......... .......... .......... .......... .......... 99% 1.30M 0s
+ 12850K .......... .......... .......... .......... .......... 99% 55.7M 0s
+ 12900K .......... .......... .......... .......... ...       100% 52.9M=3.0s
+
+2015-05-30 20:00:35 (4.27 MB/s) - mupdf-1.4-source.tar.gz saved [13253644/13253644]
+
+cmp: /var/lib/morpheus/ports/mupdf/.cache-mupdf.mk: No such file or directory
+patching Makefile.org
+patching Makefile.shared
+patch: unlink 'dev/null': No such file or directory
+removing dev/null
+mk: mkdir -p openssl-1.0.1g ...  : exit status=exit(1)
+mk: cd /var/lib/morpheus/mkbuild/../ports/openssl env ...  : exit status=exit(1)
+mk: mkdir -p mupdf-1.4-source ...  : exit status=exit(1)
+mk: pkg=$(basename `pwd`) rm ...  : exit status=exit(1)
+mk: for t in ...  : exit status=exit(1)
+mk: cd ports if ...  : exit status=exit(1)

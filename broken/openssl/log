@@ -1,0 +1,9 @@
+openssl failed to build
+patching Makefile.org
+patching Makefile.shared
+patch: unlink 'dev/null': No such file or directory
+removing dev/null
+mk: mkdir -p openssl-1.0.1g ...  : exit status=exit(1)
+mk: pkg=$(basename `pwd`) rm ...  : exit status=exit(1)
+mk: for t in ...  : exit status=exit(1)
+mk: cd ports if ...  : exit status=exit(1)

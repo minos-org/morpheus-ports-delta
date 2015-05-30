@@ -1,0 +1,49 @@
+checking if i486-musl-linux-gcc supports -c -o file.o... (cached) yes
+checking whether the i486-musl-linux-gcc linker (i486-musl-linux-gcc) supports shared libraries... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... unsupported
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... no
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for i486-musl-linux-gcc... (cached) i486-musl-linux-gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether i486-musl-linux-gcc accepts -g... (cached) yes
+checking for i486-musl-linux-gcc option to accept ISO C89... (cached) none needed
+checking dependency style of i486-musl-linux-gcc... (cached) gcc3
+checking if compiler supports __attribute__((weak, alias))... yes
+checking for pthread_self... yes
+checking for pthread_mutex_init... yes
+checking for pthread_mutex_destroy... yes
+checking for pthread_mutex_lock... yes
+checking for pthread_mutex_unlock... yes
+checking for pthread_cond_init... yes
+checking for pthread_cond_destroy... yes
+checking for pthread_condattr_init... yes
+checking for pthread_condattr_destroy... yes
+checking for pthread_cond_wait... yes
+checking for pthread_cond_timedwait... yes
+checking for pthread_cond_signal... yes
+checking for pthread_cond_broadcast... yes
+checking for pthread_equal... yes
+checking for pthread_exit... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating pthread-stubs.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make  all-am
+make[1]: Entering directory `/var/lib/morpheus/ports/libpthreadstubs/libpthread-stubs-0.3'
+make[1]: Nothing to be done for `all-am'.
+make[1]: Leaving directory `/var/lib/morpheus/ports/libpthreadstubs/libpthread-stubs-0.3'
+make[1]: Entering directory `/var/lib/morpheus/ports/libpthreadstubs/libpthread-stubs-0.3'
+test -z "/lib" || /usr/bin/mkdir -p "/var/lib/morpheus/ports/libpthreadstubs/libpthread-stubs-0.3/lib/lib"
+test -z "/lib/pkgconfig" || /usr/bin/mkdir -p "/var/lib/morpheus/ports/libpthreadstubs/libpthread-stubs-0.3/lib/lib/pkgconfig"
+ /usr/bin/install -m 644 pthread-stubs.pc '/var/lib/morpheus/ports/libpthreadstubs/libpthread-stubs-0.3/lib/lib/pkgconfig'
+make[1]: Leaving directory `/var/lib/morpheus/ports/libpthreadstubs/libpthread-stubs-0.3'
+mk: don't know how to make 'install' in /var/lib/morpheus/ports/libpthreadstubs/libpthread-stubs-0.3
+mk: cd libpthread-stubs-0.3 for ...  : exit status=exit(1)
+mk: pkg=$(basename `pwd`) rm ...  : exit status=exit(1)
+mk: for t in ...  : exit status=exit(1)
+mk: cd ports if ...  : exit status=exit(1)

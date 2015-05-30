@@ -1,0 +1,48 @@
+/bin/sh ../libtool --tag=CC   --mode=link i486-musl-linux-gcc -static  -D_BSD_SOURCE -D_GNU_SOURCE -Wall  -static -s -Wl,--gc-sections -Wl,-z,relro,-z,now -o gifsponge gifsponge.o libgetarg.a .
+./lib/libgif.la 
+libtool: link: i486-musl-linux-gcc -D_BSD_SOURCE -D_GNU_SOURCE -Wall -s -Wl,--gc-sections -Wl,-z -Wl,relro -Wl,-z -Wl,now -o gifhisto gifhisto.o  libgetarg.a ../lib/.libs/libgif.a
+/bin/sh ../libtool --tag=CC   --mode=link i486-musl-linux-gcc -static  -D_BSD_SOURCE -D_GNU_SOURCE -Wall  -static -s -Wl,--gc-sections -Wl,-z,relro,-z,now -o gifwedge gifwedge.o libgetarg.a ../
+lib/libgif.la 
+libtool: link: i486-musl-linux-gcc -D_BSD_SOURCE -D_GNU_SOURCE -Wall -s -Wl,--gc-sections -Wl,-z -Wl,relro -Wl,-z -Wl,now -o gifsponge gifsponge.o  libgetarg.a ../lib/.libs/libgif.a
+libtool: link: i486-musl-linux-gcc -D_BSD_SOURCE -D_GNU_SOURCE -Wall -s -Wl,--gc-sections -Wl,-z -Wl,relro -Wl,-z -Wl,now -o gifwedge gifwedge.o  libgetarg.a ../lib/.libs/libgif.a
+make[2]: Entering directory `/var/lib/morpheus/ports/libgiflib/giflib-5.0.0/util'
+test -z "/bin" || /usr/bin/mkdir -p "/var/lib/morpheus/ports/libgiflib/giflib-5.0.0/lib/bin"
+make[2]: Nothing to be done for `install-data-am'.
+  /bin/sh ../libtool   --mode=install /usr/bin/install gif2raw gif2rgb gifbuild gifecho giffix gifinter gifinto giftext giftool gifclrmp '/var/lib/morpheus/ports/libgiflib/giflib-5.0.0/lib/bin'
+libtool: install: /usr/bin/install gif2raw /var/lib/morpheus/ports/libgiflib/giflib-5.0.0/lib/bin/gif2raw
+libtool: install: /usr/bin/install gif2rgb /var/lib/morpheus/ports/libgiflib/giflib-5.0.0/lib/bin/gif2rgb
+libtool: install: /usr/bin/install gifbuild /var/lib/morpheus/ports/libgiflib/giflib-5.0.0/lib/bin/gifbuild
+libtool: install: /usr/bin/install gifecho /var/lib/morpheus/ports/libgiflib/giflib-5.0.0/lib/bin/gifecho
+libtool: install: /usr/bin/install giffix /var/lib/morpheus/ports/libgiflib/giflib-5.0.0/lib/bin/giffix
+libtool: install: /usr/bin/install gifinter /var/lib/morpheus/ports/libgiflib/giflib-5.0.0/lib/bin/gifinter
+libtool: install: /usr/bin/install gifinto /var/lib/morpheus/ports/libgiflib/giflib-5.0.0/lib/bin/gifinto
+libtool: install: /usr/bin/install giftext /var/lib/morpheus/ports/libgiflib/giflib-5.0.0/lib/bin/giftext
+libtool: install: /usr/bin/install giftool /var/lib/morpheus/ports/libgiflib/giflib-5.0.0/lib/bin/giftool
+libtool: install: /usr/bin/install gifclrmp /var/lib/morpheus/ports/libgiflib/giflib-5.0.0/lib/bin/gifclrmp
+make[2]: Leaving directory `/var/lib/morpheus/ports/libgiflib/giflib-5.0.0/util'
+make[1]: Leaving directory `/var/lib/morpheus/ports/libgiflib/giflib-5.0.0/util'
+Making install in doc
+make[1]: Entering directory `/var/lib/morpheus/ports/libgiflib/giflib-5.0.0/doc'
+make[2]: Entering directory `/var/lib/morpheus/ports/libgiflib/giflib-5.0.0/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/var/lib/morpheus/ports/libgiflib/giflib-5.0.0/doc'
+make[1]: Leaving directory `/var/lib/morpheus/ports/libgiflib/giflib-5.0.0/doc'
+Making install in pic
+make[1]: Entering directory `/var/lib/morpheus/ports/libgiflib/giflib-5.0.0/pic'
+make[2]: Entering directory `/var/lib/morpheus/ports/libgiflib/giflib-5.0.0/pic'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/var/lib/morpheus/ports/libgiflib/giflib-5.0.0/pic'
+make[1]: Leaving directory `/var/lib/morpheus/ports/libgiflib/giflib-5.0.0/pic'
+make[1]: Entering directory `/var/lib/morpheus/ports/libgiflib/giflib-5.0.0'
+make[2]: Entering directory `/var/lib/morpheus/ports/libgiflib/giflib-5.0.0'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/var/lib/morpheus/ports/libgiflib/giflib-5.0.0'
+make[1]: Leaving directory `/var/lib/morpheus/ports/libgiflib/giflib-5.0.0'
+mk: don't know how to make 'install' in /var/lib/morpheus/ports/libgiflib/giflib-5.0.0
+mk: cd giflib-5.0.0 for ...  : exit status=exit(1)
+mk: pkg=$(basename `pwd`) rm ...  : exit status=exit(1)
+mk: for t in ...  : exit status=exit(1)
+mk: cd ports if ...  : exit status=exit(1

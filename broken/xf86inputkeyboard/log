@@ -1,0 +1,49 @@
+    xprint..............: yes
+    xtest...............: yes
+    xv..................: yes
+    xvmc................: yes
+
+  Used CFLAGS:
+    CPPFLAGS............: -D_BSD_SOURCE -D_GNU_SOURCE
+    CFLAGS..............: -D_BSD_SOURCE -D_GNU_SOURCE -I/var/lib/morpheus/mkbuild/../ports/xorgxcbproto/xcb-proto-1.10/lib/share/xcb -I/var/lib/morpheus/mkbuild/../ports/xorgxproto/xproto-7.0.2
+6/lib/include -I/var/lib/morpheus/mkbuild/../ports/xorglibxau/libXau-1.0.8/lib/include -I/var/lib/morpheus/mkbuild/../ports/xorglibxdmcp/libXdmcp-1.1.1/lib/include
+    Warning CFLAGS......: -Wall -Wpointer-arith -Wold-style-definition          -Wstrict-prototypes -Wmissing-declarations -Wnested-externs
+
+  Installation:
+    Prefix..............: 
+
+Making install in src
+make[1]: Entering directory `/var/lib/morpheus/ports/xorglibxcb/libxcb-1.10/src'
+python2.7 ./c_client.py -p /var/lib/morpheus/mkbuild/../ports/xorgxcbproto/xcb-proto-1.10/lib/lib/python2.7/site-packages/ /var/lib/morpheus/mkbuild/../ports/xorgxcbproto/xcb-proto-1.10/lib/sha
+re/xcb/xproto.xml
+python2.7 ./c_client.py -p /var/lib/morpheus/mkbuild/../ports/xorgxcbproto/xcb-proto-1.10/lib/lib/python2.7/site-packages/ /var/lib/morpheus/mkbuild/../ports/xorgxcbproto/xcb-proto-1.10/lib/sha
+re/xcb/bigreq.xml
+
+Failed to load the xcbgen Python package!
+Make sure that xcb/proto installed it on your Python path.
+If not, you will need to create a .pth file or define $PYTHONPATH
+to extend the path.
+Refer to the README file in xcb/proto for more info.
+
+Traceback (most recent call last):
+  File "./c_client.py", line 2982, in <module>
+    from xcbgen.state import Module
+ImportError: No module named xcbgen.state
+    from xcbgen.state import Module
+ImportError: No module named xcbgen.state
+make[1]: *** [bigreq.c] Error 1
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [xproto.c] Error 1
+make[1]: Leaving directory `/var/lib/morpheus/ports/xorglibxcb/libxcb-1.10/src'
+make: *** [install-recursive] Error 1
+mk: export CFLAGS="$CFLAGS $DEPS_CFLAGS" ...  : exit status=exit(2)
+mk: mkdir -p libxcb-1.10 ...  : exit status=exit(1)
+mk: cd /var/lib/morpheus/mkbuild/../ports/xorglibxcb env ...  : exit status=exit(1)
+mk: mkdir -p libX11-1.6.2 ...  : exit status=exit(1)
+mk: cd /var/lib/morpheus/mkbuild/../ports/xorglibx11 env ...  : exit status=exit(1)
+mk: mkdir -p xorg-server-1.14.6 ...  : exit status=exit(1)
+mk: cd /var/lib/morpheus/mkbuild/../ports/xorgserver env ...  : exit status=exit(1)
+mk: mkdir -p xf86-input-keyboard-1.8.0 ...  : exit status=exit(1)
+mk: pkg=$(basename `pwd`) rm ...  : exit status=exit(1)
+mk: for t in ...  : exit status=exit(1)
+mk: cd ports if ...  : exit status=exit(1)

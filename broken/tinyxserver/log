@@ -1,0 +1,48 @@
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+/bin/sh: line 1: bdftopcf: command not found
+make[1]: *** [fonts] Error 127
+make[1]: Leaving directory `/var/lib/morpheus/ports/tinyxserver/tinyxserver/fonts'
+make: *** [all] Error 2
+mk: case "$arch" in ...  : exit status=exit(2)
+mk: mkdir -p tinyxserver ...  : exit status=exit(1)
+mk: pkg=$(basename `pwd`) rm ...  : exit status=exit(1)
+mk: for t in ...  : exit status=exit(1)
+mk: cd ports if ...  : exit status=exit(1)

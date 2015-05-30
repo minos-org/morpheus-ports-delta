@@ -1,0 +1,41 @@
+checking for string.h... (cached) yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for unistd.h... (cached) yes
+checking iconv.h usability... yes
+checking iconv.h presence... yes
+checking for iconv.h... yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for int64_t... yes
+checking for size_t... yes
+checking for uint32_t... yes
+checking for uint8_t... yes
+checking for mkdir... yes
+checking for strcasecmp... yes
+checking for strdup... yes
+checking for strtol... yes
+checking for library containing iconv_open... none required
+checking for fabs in -lm... yes
+checking for i486-musl-linux-pkg-config... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for FREETYPE... yes
+checking for FRIBIDI... yes
+checking for FONTCONFIG... no
+configure: error: Package requirements (fontconfig >= 2.4.2) were not met:
+
+No package 'fontconfig' found
+
+Consider adjusting the PKG_CONFIG_PATH environment variable if you
+installed software in a non-standard prefix.
+
+Alternatively, you may set the environment variables FONTCONFIG_CFLAGS
+and FONTCONFIG_LIBS to avoid the need to call pkg-config.
+See the pkg-config man page for more details.
+mk: export CFLAGS="$CFLAGS $DEPS_CFLAGS" ...  : exit status=exit(1)
+mk: mkdir -p libass-0.10.2 ...  : exit status=exit(1)
+mk: pkg=$(basename `pwd`) rm ...  : exit status=exit(1)
+mk: for t in ...  : exit status=exit(1)
+mk: cd ports if ...  : exit status=exit(1)

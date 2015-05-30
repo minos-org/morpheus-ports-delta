@@ -1,0 +1,4 @@
+xloadimage failed to build 
+mk: don't know how to make 'package' in /var/lib/morpheus/ports/xloadimage
+mk: for t in ...  : exit status=exit(1)
+mk: cd ports if ...  : exit status=exit(1)

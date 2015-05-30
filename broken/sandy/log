@@ -1,0 +1,101 @@
+sandy failed to build
+     textattrs[i][j] = bwattrs[i];
+                       ^
+sandy.c: In function 'i_termwininit':
+sandy.c:1725:5: error: 'USE_TERM_STATUS' undeclared (first use in this function)
+  if(USE_TERM_STATUS && tigetflag("hs") > 0) {
+     ^
+sandy.c:1732:30: error: 'BOTTOM_TITLE' undeclared (first use in this function)
+   titlewin = newwin(1, cols, BOTTOM_TITLE ? lines - 1 : 0, 0);
+                              ^
+sandy.c: In function 'i_update':
+sandy.c:37:35: error: 'tabstop' undeclared (first use in this function)
+ #define VLEN(ch,col)  (ch=='   ' ? tabstop-(col%tabstop) : (ISCTRL(ch) ? 2: (ISFILL(ch) ? 0: 1)))
+                                   ^
+sandy.c:1828:17: note: in expansion of macro 'VLEN'
+     cursor_c += VLEN(fcur.l->c[ichar], cursor_c);
+                 ^
+sandy.c:30:24: error: 'isutf8' undeclared (first use in this function)
+ #define ISFILL(ch)    (isutf8 && !ISASCII(ch) && (unsigned char)ch<=0xBF)
+                        ^
+sandy.c:37:77: note: in expansion of macro 'ISFILL'
+ #define VLEN(ch,col)  (ch=='   ' ? tabstop-(col%tabstop) : (ISCTRL(ch) ? 2: (ISFILL(ch) ? 0: 1)))
+                                                                             ^
+sandy.c:1828:17: note: in expansion of macro 'VLEN'
+     cursor_c += VLEN(fcur.l->c[ichar], cursor_c);
+                 ^
+In file included from sandy.c:6:0:
+sandy.c:1876:48: error: 'tabstr' undeclared (first use in this function)
+         waddstr(textwin, ((i == 0 && isutf8) ? tabstr : " "));
+                                                ^
+/var/lib/morpheus/mkbuild/../ports/ncurses/ncurses-5.9/include/ncurses.h:1151:39: note: in definition of macro 'waddstr'
+ #define waddstr(win,str) waddnstr(win,str,-1)
+                                       ^
+sandy.c:1879:35: error: 'spcstr' undeclared (first use in this function)
+        waddstr(textwin, (isutf8 ? spcstr : " "));
+                                   ^
+/var/lib/morpheus/mkbuild/../ports/ncurses/ncurses-5.9/include/ncurses.h:1151:39: note: in definition of macro 'waddstr'
+ #define waddstr(win,str) waddnstr(win,str,-1)
+                                       ^
+sandy.c: In function 'm_nextchar':
+sandy.c:39:29: error: 'isutf8' undeclared (first use in this function)
+ #define FIXNEXT(pos)  while(isutf8 && ISFILL(pos.l->c[pos.o]) && ++pos.o < pos.l->len)
+                             ^
+sandy.c:2070:3: note: in expansion of macro 'FIXNEXT'
+   FIXNEXT(pos);
+   ^
+sandy.c: In function 'm_prevchar':
+sandy.c:40:29: error: 'isutf8' undeclared (first use in this function)
+ #define FIXPREV(pos)  while(isutf8 && ISFILL(pos.l->c[pos.o]) && --pos.o > 0)
+                             ^
+sandy.c:2083:3: note: in expansion of macro 'FIXPREV'
+   FIXPREV(pos);
+   ^
+sandy.c: In function 'm_nextline':
+sandy.c:37:35: error: 'tabstop' undeclared (first use in this function)
+ #define VLEN(ch,col)  (ch=='   ' ? tabstop-(col%tabstop) : (ISCTRL(ch) ? 2: (ISFILL(ch) ? 0: 1)))
+                                   ^
+sandy.c:2131:13: note: in expansion of macro 'VLEN'
+   ivchar += VLEN(pos.l->c[ichar], ivchar);
+             ^
+sandy.c:30:24: error: 'isutf8' undeclared (first use in this function)
+ #define ISFILL(ch)    (isutf8 && !ISASCII(ch) && (unsigned char)ch<=0xBF)
+                        ^
+sandy.c:37:77: note: in expansion of macro 'ISFILL'
+ #define VLEN(ch,col)  (ch=='   ' ? tabstop-(col%tabstop) : (ISCTRL(ch) ? 2: (ISFILL(ch) ? 0: 1)))
+                                                                             ^
+sandy.c:2131:13: note: in expansion of macro 'VLEN'
+   ivchar += VLEN(pos.l->c[ichar], ivchar);
+             ^
+sandy.c: In function 'm_prevline':
+sandy.c:37:35: error: 'tabstop' undeclared (first use in this function)
+ #define VLEN(ch,col)  (ch=='   ' ? tabstop-(col%tabstop) : (ISCTRL(ch) ? 2: (ISFILL(ch) ? 0: 1)))
+                                   ^
+sandy.c:2150:13: note: in expansion of macro 'VLEN'
+   ivchar += VLEN(pos.l->c[ichar], (ivchar % (cols - 1)));
+             ^
+sandy.c:30:24: error: 'isutf8' undeclared (first use in this function)
+ #define ISFILL(ch)    (isutf8 && !ISASCII(ch) && (unsigned char)ch<=0xBF)
+                        ^
+sandy.c:37:77: note: in expansion of macro 'ISFILL'
+ #define VLEN(ch,col)  (ch=='   ' ? tabstop-(col%tabstop) : (ISCTRL(ch) ? 2: (ISFILL(ch) ? 0: 1)))
+                                                                             ^
+sandy.c:2150:13: note: in expansion of macro 'VLEN'
+   ivchar += VLEN(pos.l->c[ichar], (ivchar % (cols - 1)));
+             ^
+sandy.c: In function 'm_tomark':
+sandy.c:39:29: error: 'isutf8' undeclared (first use in this function)
+ #define FIXNEXT(pos)  while(isutf8 && ISFILL(pos.l->c[pos.o]) && ++pos.o < pos.l->len)
+                             ^
+sandy.c:2220:4: note: in expansion of macro 'FIXNEXT'
+    FIXNEXT(pos);
+    ^
+sandy.c: In function 'main':
+sandy.c:2338:3: error: 'tabstop' undeclared (first use in this function)
+   tabstop = atoi(EARGF(i_usage()));
+   ^
+mk: echo CC sandy.o ...  : exit status=exit(1)
+mk: mkdir -p sandy ...  : exit status=exit(1)
+mk: pkg=$(basename `pwd`) rm ...  : exit status=exit(1)
+mk: for t in ...  : exit status=exit(1)
+mk: cd ports if ...  : exit status=exit(1)

@@ -1,0 +1,5 @@
+mk: don't know how to make 'install' in /var/lib/morpheus/ports/freetype/freetype-2.5.3
+mk: cd freetype-2.5.3 for ...  : exit status=exit(1)
+mk: pkg=$(basename `pwd`) rm ...  : exit status=exit(1)
+mk: for t in ...  : exit status=exit(1)
+mk: cd ports if ...  : exit status=exit(1)

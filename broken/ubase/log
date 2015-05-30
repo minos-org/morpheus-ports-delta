@@ -1,0 +1,9 @@
+ubase failed to build 
+Cloning into 'ubase'...
+cmp: /var/lib/morpheus/ports/ubase/.cache-ubase.mk: No such file or directory
+ls: cannot access util/*.c: No such file or directory
+mk: don't know how to make 'util.a' in /var/lib/morpheus/ports/ubase/ubase
+mk: mkdir -p ubase ...  : exit status=exit(1)
+mk: pkg=$(basename `pwd`) rm ...  : exit status=exit(1)
+mk: for t in ...  : exit status=exit(1)
+mk: cd ports if ...  : exit status=exit(1)

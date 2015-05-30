@@ -1,0 +1,48 @@
+a/log_files.o .libs/libtorrent.lax/libsub_torrentutils.a/option_strings.o .libs/libtorrent.lax/libsub_torrentutils.a/resume.o .libs/libtorrent.lax/libsub_torrentutils.a/signal_bitfield.o .libs/
+libtorrent.lax/libsub_torrentutils.a/thread_base.o  .libs/libtorrent.lax/libsub_data.a/chunk.o .libs/libtorrent.lax/libsub_data.a/chunk_list.o .libs/libtorrent.lax/libsub_data.a/chunk_part.o .l
+ibs/libtorrent.lax/libsub_data.a/hash_check_queue.o .libs/libtorrent.lax/libsub_data.a/hash_chunk.o .libs/libtorrent.lax/libsub_data.a/hash_queue.o .libs/libtorrent.lax/libsub_data.a/hash_queue
+_node.o .libs/libtorrent.lax/libsub_data.a/hash_torrent.o .libs/libtorrent.lax/libsub_data.a/memory_chunk.o .libs/libtorrent.lax/libsub_data.a/socket_file.o  .libs/libtorrent.lax/libsub_dht.a/d
+ht_bucket.o .libs/libtorrent.lax/libsub_dht.a/dht_node.o .libs/libtorrent.lax/libsub_dht.a/dht_router.o .libs/libtorrent.lax/libsub_dht.a/dht_server.o .libs/libtorrent.lax/libsub_dht.a/dht_trac
+ker.o .libs/libtorrent.lax/libsub_dht.a/dht_transaction.o  .libs/libtorrent.lax/libsub_download.a/available_list.o .libs/libtorrent.lax/libsub_download.a/chunk_selector.o .libs/libtorrent.lax/l
+ibsub_download.a/chunk_statistics.o .libs/libtorrent.lax/libsub_download.a/delegator.o .libs/libtorrent.lax/libsub_download.a/download_constructor.o .libs/libtorrent.lax/libsub_download.a/downl
+oad_main.o .libs/libtorrent.lax/libsub_download.a/download_wrapper.o  .libs/libtorrent.lax/libsub_net.a/address_list.o .libs/libtorrent.lax/libsub_net.a/listen.o .libs/libtorrent.lax/libsub_net
+.a/socket_base.o .libs/libtorrent.lax/libsub_net.a/socket_datagram.o .libs/libtorrent.lax/libsub_net.a/socket_fd.o .libs/libtorrent.lax/libsub_net.a/socket_set.o .libs/libtorrent.lax/libsub_net
+.a/socket_stream.o .libs/libtorrent.lax/libsub_net.a/throttle_internal.o .libs/libtorrent.lax/libsub_net.a/throttle_list.o  .libs/libtorrent.lax/libsub_protocol.a/extensions.o .libs/libtorrent.
+lax/libsub_protocol.a/handshake.o .libs/libtorrent.lax/libsub_protocol.a/handshake_encryption.o .libs/libtorrent.lax/libsub_protocol.a/handshake_manager.o .libs/libtorrent.lax/libsub_protocol.a
+/initial_seed.o .libs/libtorrent.lax/libsub_protocol.a/peer_connection_base.o .libs/libtorrent.lax/libsub_protocol.a/peer_connection_leech.o .libs/libtorrent.lax/libsub_protocol.a/peer_connecti
+on_metadata.o .libs/libtorrent.lax/libsub_protocol.a/peer_factory.o .libs/libtorrent.lax/libsub_protocol.a/request_list.o  .libs/libtorrent.lax/libsub_tracker.a/tracker_dht.o .libs/libtorrent.l
+ax/libsub_tracker.a/tracker_http.o .libs/libtorrent.lax/libsub_tracker.a/tracker_udp.o  .libs/libtorrent.lax/libsub_utils.a/diffie_hellman.o .libs/libtorrent.lax/libsub_utils.a/sha_fast.o 
+libtool: link: i486-musl-linux-ranlib .libs/libtorrent.a
+libtool: link: rm -fr .libs/libtorrent.lax
+libtool: link: ( cd ".libs" && rm -f "libtorrent.la" && ln -s "../libtorrent.la" "libtorrent.la" )
+make[3]: Entering directory `/var/lib/morpheus/ports/libtorrent/libtorrent-0.13.2/src'
+test -z "/lib" || /usr/bin/mkdir -p "/var/lib/morpheus/ports/libtorrent/libtorrent-0.13.2/lib/lib"
+make[3]: Nothing to be done for `install-data-am'.
+ /bin/sh ../libtool   --mode=install /usr/bin/install   libtorrent.la '/var/lib/morpheus/ports/libtorrent/libtorrent-0.13.2/lib/lib'
+libtool: install: /usr/bin/install .libs/libtorrent.lai /var/lib/morpheus/ports/libtorrent/libtorrent-0.13.2/lib/lib/libtorrent.la
+libtool: install: /usr/bin/install .libs/libtorrent.a /var/lib/morpheus/ports/libtorrent/libtorrent-0.13.2/lib/lib/libtorrent.a
+libtool: install: chmod 644 /var/lib/morpheus/ports/libtorrent/libtorrent-0.13.2/lib/lib/libtorrent.a
+libtool: install: i486-musl-linux-ranlib /var/lib/morpheus/ports/libtorrent/libtorrent-0.13.2/lib/lib/libtorrent.a
+libtool: install: warning: remember to run `libtool --finish /lib'
+make[3]: Leaving directory `/var/lib/morpheus/ports/libtorrent/libtorrent-0.13.2/src'
+make[2]: Leaving directory `/var/lib/morpheus/ports/libtorrent/libtorrent-0.13.2/src'
+make[1]: Leaving directory `/var/lib/morpheus/ports/libtorrent/libtorrent-0.13.2/src'
+Making install in test
+make[1]: Entering directory `/var/lib/morpheus/ports/libtorrent/libtorrent-0.13.2/test'
+make[2]: Entering directory `/var/lib/morpheus/ports/libtorrent/libtorrent-0.13.2/test'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/var/lib/morpheus/ports/libtorrent/libtorrent-0.13.2/test'
+make[1]: Leaving directory `/var/lib/morpheus/ports/libtorrent/libtorrent-0.13.2/test'
+make[1]: Entering directory `/var/lib/morpheus/ports/libtorrent/libtorrent-0.13.2'
+make[2]: Entering directory `/var/lib/morpheus/ports/libtorrent/libtorrent-0.13.2'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/lib/pkgconfig" || /usr/bin/mkdir -p "/var/lib/morpheus/ports/libtorrent/libtorrent-0.13.2/lib/lib/pkgconfig"
+ /usr/bin/install -m 644 libtorrent.pc '/var/lib/morpheus/ports/libtorrent/libtorrent-0.13.2/lib/lib/pkgconfig'
+make[2]: Leaving directory `/var/lib/morpheus/ports/libtorrent/libtorrent-0.13.2'
+make[1]: Leaving directory `/var/lib/morpheus/ports/libtorrent/libtorrent-0.13.2'
+mk: don't know how to make 'install' in /var/lib/morpheus/ports/libtorrent/libtorrent-0.13.2
+mk: cd libtorrent-0.13.2 for ...  : exit status=exit(1)
+mk: pkg=$(basename `pwd`) rm ...  : exit status=exit(1)
+mk: for t in ...  : exit status=exit(1)
+mk: cd ports if ...  : exit status=exit(1)

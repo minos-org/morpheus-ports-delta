@@ -1,0 +1,32 @@
+Cloning into 'nbwmon'...
+cmp: /var/lib/morpheus/ports/nbwmon/.cache-nbwmon.mk: No such file or directory
+echo CC nbwmon.o
+i486-musl-linux-gcc -D_BSD_SOURCE -D_GNU_SOURCE -I/var/lib/morpheus/mkbuild/../ports/ncurses/ncurses-5.9/include -I/var/lib/morpheus/mkbuild/../ports/git/git-1.9.2 -std=c99 -D_BSD_SOURCE -D_GNU
+_SOURCE -c nbwmon.c -o nbwmon.o
+CC nbwmon.o
+nbwmon.c:1:0: warning: "_GNU_SOURCE" redefined
+ #define _GNU_SOURCE
+ ^
+<command-line>:0:0: note: this is the location of the previous definition
+echo LD nbwmon
+i486-musl-linux-gcc nbwmon.o -static -s -Wl,--gc-sections -Wl,-z,relro,-z,now -L/var/lib/morpheus/mkbuild/../ports/ncurses/ncurses-5.9/lib -L/var/lib/morpheus/mkbuild/../ports/git/git-1.9.2 -lg
+it -lncursesw $nbwmon_LDFLAGS $LOCAL_BIN_LDFLAGS -o nbwmon
+LD nbwmon
+nbwmon.o: In function `arrayresize':
+nbwmon.c:(.text+0xf8): undefined reference to `ecalloc'
+nbwmon.o: In function `usage':
+nbwmon.c:(.text+0xd75): undefined reference to `eprintf'
+nbwmon.o: In function `main':
+nbwmon.c:(.text+0xe57): undefined reference to `eprintf'
+nbwmon.c:(.text+0xedb): undefined reference to `estrtod'
+nbwmon.c:(.text+0xfd3): undefined reference to `eprintf'
+nbwmon.c:(.text+0x1017): undefined reference to `eprintf'
+nbwmon.c:(.text+0x1109): undefined reference to `ecalloc'
+nbwmon.c:(.text+0x1123): undefined reference to `ecalloc'
+nbwmon.c:(.text+0x1614): undefined reference to `eprintf'
+collect2: error: ld returned 1 exit status
+mk: echo LD nbwmon ...  : exit status=exit(1)
+mk: mkdir -p nbwmon ...  : exit status=exit(1)
+mk: pkg=$(basename `pwd`) rm ...  : exit status=exit(1)
+mk: for t in ...  : exit status=exit(1)
+mk: cd ports if ...  : exit status=exit(1)

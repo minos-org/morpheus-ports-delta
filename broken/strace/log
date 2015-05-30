@@ -1,0 +1,47 @@
+mv -f .deps/ioctl.Tpo .deps/ioctl.Po
+i486-musl-linux-gcc -DHAVE_CONFIG_H -I.  -I./linux/i386 -I./linux -I./linux -D_BSD_SOURCE -D_GNU_SOURCE -Wall -Wwrite-strings -D_BSD_SOURCE -D_GNU_SOURCE -Dsigcontext_struct=sigcontext -MT ipc.
+o -MD -MP -MF .deps/ipc.Tpo -c -o ipc.o ipc.c
+mv -f .deps/file.Tpo .deps/file.Po
+i486-musl-linux-gcc -DHAVE_CONFIG_H -I.  -I./linux/i386 -I./linux -I./linux -D_BSD_SOURCE -D_GNU_SOURCE -Wall -Wwrite-strings -D_BSD_SOURCE -D_GNU_SOURCE -Dsigcontext_struct=sigcontext -MT loop
+.o -MD -MP -MF .deps/loop.Tpo -c -o loop.o loop.c
+mv -f .deps/ipc.Tpo .deps/ipc.Po
+i486-musl-linux-gcc -DHAVE_CONFIG_H -I.  -I./linux/i386 -I./linux -I./linux -D_BSD_SOURCE -D_GNU_SOURCE -Wall -Wwrite-strings -D_BSD_SOURCE -D_GNU_SOURCE -Dsigcontext_struct=sigcontext -MT mem.
+o -MD -MP -MF .deps/mem.Tpo -c -o mem.o mem.c
+mv -f .deps/loop.Tpo .deps/loop.Po
+i486-musl-linux-gcc -DHAVE_CONFIG_H -I.  -I./linux/i386 -I./linux -I./linux -D_BSD_SOURCE -D_GNU_SOURCE -Wall -Wwrite-strings -D_BSD_SOURCE -D_GNU_SOURCE -Dsigcontext_struct=sigcontext -MT mtd.
+o -MD -MP -MF .deps/mtd.Tpo -c -o mtd.o mtd.c
+mv -f .deps/mem.Tpo .deps/mem.Po
+i486-musl-linux-gcc -DHAVE_CONFIG_H -I.  -I./linux/i386 -I./linux -I./linux -D_BSD_SOURCE -D_GNU_SOURCE -Wall -Wwrite-strings -D_BSD_SOURCE -D_GNU_SOURCE -Dsigcontext_struct=sigcontext -MT net.
+o -MD -MP -MF .deps/net.Tpo -c -o net.o net.c
+mv -f .deps/mtd.Tpo .deps/mtd.Po
+i486-musl-linux-gcc -DHAVE_CONFIG_H -I.  -I./linux/i386 -I./linux -I./linux -D_BSD_SOURCE -D_GNU_SOURCE -Wall -Wwrite-strings -D_BSD_SOURCE -D_GNU_SOURCE -Dsigcontext_struct=sigcontext -MT path
+trace.o -MD -MP -MF .deps/pathtrace.Tpo -c -o pathtrace.o pathtrace.c
+mv -f .deps/pathtrace.Tpo .deps/pathtrace.Po
+i486-musl-linux-gcc -DHAVE_CONFIG_H -I.  -I./linux/i386 -I./linux -I./linux -D_BSD_SOURCE -D_GNU_SOURCE -Wall -Wwrite-strings -D_BSD_SOURCE -D_GNU_SOURCE -Dsigcontext_struct=sigcontext -MT proc
+ess.o -MD -MP -MF .deps/process.Tpo -c -o process.o process.c
+mv -f .deps/net.Tpo .deps/net.Po
+i486-musl-linux-gcc -DHAVE_CONFIG_H -I.  -I./linux/i386 -I./linux -I./linux -D_BSD_SOURCE -D_GNU_SOURCE -Wall -Wwrite-strings -D_BSD_SOURCE -D_GNU_SOURCE -Dsigcontext_struct=sigcontext -MT quot
+a.o -MD -MP -MF .deps/quota.Tpo -c -o quota.o quota.c
+mv -f .deps/quota.Tpo .deps/quota.Po
+i486-musl-linux-gcc -DHAVE_CONFIG_H -I.  -I./linux/i386 -I./linux -I./linux -D_BSD_SOURCE -D_GNU_SOURCE -Wall -Wwrite-strings -D_BSD_SOURCE -D_GNU_SOURCE -Dsigcontext_struct=sigcontext -MT reso
+urce.o -MD -MP -MF .deps/resource.Tpo -c -o resource.o resource.c
+mv -f .deps/process.Tpo .deps/process.Po
+i486-musl-linux-gcc -DHAVE_CONFIG_H -I.  -I./linux/i386 -I./linux -I./linux -D_BSD_SOURCE -D_GNU_SOURCE -Wall -Wwrite-strings -D_BSD_SOURCE -D_GNU_SOURCE -Dsigcontext_struct=sigcontext -MT scsi
+.o -MD -MP -MF .deps/scsi.Tpo -c -o scsi.o scsi.c
+resource.c: In function 'sys_sysinfo':
+resource.c:367:17: error: storage size of 'si' isn't known
+  struct sysinfo si;
+                 ^
+resource.c:367:17: warning: unused variable 'si' [-Wunused-variable]
+make[2]: *** [resource.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+mv -f .deps/scsi.Tpo .deps/scsi.Po
+make[2]: Leaving directory `/var/lib/morpheus/ports/strace/strace-4.8'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/var/lib/morpheus/ports/strace/strace-4.8'
+make: *** [all] Error 2
+mk: # patch configure ...  : exit status=exit(2)
+mk: mkdir -p strace-4.8 ...  : exit status=exit(1)
+mk: pkg=$(basename `pwd`) rm ...  : exit status=exit(1)
+mk: for t in ...  : exit status=exit(1)
+mk: cd ports if ...  : exit status=exit(1)
