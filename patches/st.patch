@@ -7,3 +7,14 @@
 -git = git://git.suckless.org/st
 +git = http://git.suckless.org/st
  mkfile = ../st.mk
+--- st/st.mk	2015-04-05 10:54:07.404139569 +0300
++++ st/st.mk.new	2015-05-30 09:43:09.365868806 +0300
+@@ -3,7 +3,7 @@
+ DEPS = \
+ 	fontconfig xorglibxft freetype expat xorglibxcb xorglibxext xorglibxrender \
+ 	xorgrenderproto xorglibx11 xorgxtrans xorglibxcb xorgxcbproto xorgxproto \
+-	xorglibxau xorglibxdmcp libpng zlib
++	xorglibxau xorglibxdmcp libpng zlib git
+ 
+ <$mkbuild/mk.common-noinst
+ 

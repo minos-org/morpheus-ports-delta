@@ -1,0 +1,10 @@
+--- dmenu/dmenu.mk	2015-04-05 10:54:07.393139409 +0300
++++ dmenu/dmenu.mk.new	2015-05-30 07:44:30.573350653 +0300
+@@ -1,6 +1,6 @@
+ TARG = dmenu
+ DEPS = xorglibx11 xorgxproto xorglibxinerama xorgxineramaproto xorglibxext \
+-	xorglibxcb xorglibxau xorglibxdmcp
++       xorglibxcb xorglibxau xorglibxdmcp git
+ 
+ <$mkbuild/mk.common-noinst
+ 

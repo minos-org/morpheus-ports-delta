@@ -1,0 +1,8 @@
+--- libquviscripts/libquviscripts.mk	2015-04-05 10:54:07.399139497 +0300
++++ libquviscripts/libquviscripts.mk.new	2015-05-30 08:16:03.378511214 +0300
+@@ -1,4 +1,5 @@
+ TARG = libquviscripts
++DEPS = xz
+ 
+ <$mkbuild/mk.common-noinst
+ 

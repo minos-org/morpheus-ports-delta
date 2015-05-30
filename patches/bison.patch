@@ -1,0 +1,8 @@
+--- bison/bison.mk	2015-04-05 10:54:07.391139378 +0300
++++ bison/bison.mk.new	2015-05-30 06:05:21.558647181 +0300
+@@ -1,4 +1,5 @@
+ TARG = bison
++DEPS = xz
+ 
+ INSTALL_BIN = src/bison src/yacc
+ INSTALL_MAN1 = doc/bison.1 doc/yacc.1

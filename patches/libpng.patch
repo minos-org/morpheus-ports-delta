@@ -7,3 +7,14 @@
 -url = http://optimate.dl.sourceforge.net/project/libpng/libpng16/$v/libpng-$v.tar.xz
 +url = http://ftp.lfs-matrix.net/pub/blfs/conglomeration/libpng/libpng-$v.tar.xz
  mkfile = ../libpng.mk
+--- libpng/libpng.mk	2015-04-05 10:54:07.398139482 +0300
++++ libpng/libpng.mk.new	2015-05-30 08:10:34.043460558 +0300
+@@ -1,7 +1,7 @@
+ # TODO: build and package binaries? png2pnm, pngfix, libpng-config etc?
+ 
+ LIB = libpng.a
+-DEPS = zlib
++DEPS = zlib xz
+ BIN = \
+ 	contrib/pngminus/pnm2png \
+ 	contrib/pngminus/png2pnm

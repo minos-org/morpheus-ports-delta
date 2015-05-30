@@ -1,0 +1,8 @@
+--- abduco/abduco.mk	2015-04-05 10:54:07.391139378 +0300
++++ abduco/abduco.mk.new	2015-05-30 05:57:51.837646036 +0300
+@@ -1,4 +1,5 @@
+ BIN = abduco
++DEPS = git
+ OBJ = abduco.o
+ INSTALL_BIN = abduco
+ INSTALL_MAN1 = abduco.1

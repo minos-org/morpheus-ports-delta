@@ -1,0 +1,10 @@
+--- unifdef/unifdef.mk	2015-04-05 10:54:07.405139583 +0300
++++ unifdef/unifdef.mk.new	2015-05-30 09:58:23.663056728 +0300
+@@ -3,6 +3,7 @@
+ INSTALL_BIN = unifdef
+ INSTALL_MAN1 = `{ls *.1}
+ NPROC = $nprocs
++DEPS = xz
+ 
+ <$mkbuild/mk.common
+ <../v.mk

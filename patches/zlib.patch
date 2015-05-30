@@ -1,0 +1,7 @@
+--- zlib/zlib.mk	2015-04-05 10:54:07.412139689 +0300
++++ zlib/zlib.mk.new	2015-05-30 07:53:15.914747102 +0300
+@@ -1,3 +1,4 @@
++DEPS = xz
+ LIB = libz.a
+ INSTALL_LIB = libz.a
+ INSTALL_OTHER1 = zlib.h zconf.h

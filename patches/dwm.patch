@@ -1,0 +1,10 @@
+--- dwm/dwm.mk	2015-04-05 10:54:07.393139409 +0300
++++ dwm/dwm.mk.new	2015-05-30 07:48:31.476280396 +0300
+@@ -1,6 +1,6 @@
+ TARG = dwm
+ DEPS = xorglibx11 xorgxproto xorglibxinerama xorglibxext \
+-	xorglibxcb xorglibxau xorglibxdmcp
++	xorglibxcb xorglibxau xorglibxdmcp git
+ 
+ <$mkbuild/mk.common-noinst
+ 

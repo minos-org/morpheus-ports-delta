@@ -1,0 +1,9 @@
+--- rtorrent/mkfile	2015-04-05 10:54:07.404139569 +0300
++++ rtorrent/mkfile.new	2015-05-30 09:01:26.131799323 +0300
+@@ -2,5 +2,5 @@
+ 
+ <v.mk
+ src = rtorrent-$v
+-url = http://libtorrent.rakshasa.no/downloads/rtorrent-$v.tar.gz
++url = http://pkgs.fedoraproject.org/lookaside/pkgs/rtorrent/rtorrent-0.9.2.tar.gz/72c3e9ab859bda7cc8aa96c0b508b09f/rtorrent-$v.tar.gz
+ mkfile = ../rtorrent.mk

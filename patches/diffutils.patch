@@ -1,0 +1,8 @@
+--- diffutils/diffutils.mk	2015-04-05 10:54:07.393139409 +0300
++++ diffutils/diffutils.mk.new	2015-05-30 07:43:16.757454164 +0300
+@@ -1,4 +1,5 @@
+ TARG = diffutils
++DEPS = xz
+ 
+ INSTALL_BIN = src/diff src/diff3 src/sdiff
+ INSTALL_MAN1 = man/diff.1 man/diff3.1 man/sdiff.1

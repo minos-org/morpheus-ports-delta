@@ -1,0 +1,10 @@
+--- linux-firmware/linux-firmware.mk	2015-04-05 10:54:07.399139497 +0300
++++ linux-firmware/linux-firmware.mk.new	2015-05-30 08:44:35.974418362 +0300
+@@ -1,5 +1,7 @@
+ <$mkbuild/mk.common-noinst
+ 
++DEPS = git
++
+ install:QV:
+ 	$INSTALL -d -m 755 "$ROOT/lib/firmware"
+ 	cp -a * "$ROOT/lib/firmware/"

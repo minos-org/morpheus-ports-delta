@@ -1,0 +1,9 @@
+--- shadow/shadow.mk	2015-04-05 10:54:07.404139569 +0300
++++ shadow/shadow.mk.new	2015-05-30 09:30:24.615585755 +0300
+@@ -1,5 +1,6 @@
+ BIN = useradd userdel groupadd groupdel
+ LIB = libcommon.a libmisc.a
++DEPS = xz
+ libcommon_a_OBJ = `{ls lib/*.c | sed 's/.$/o/' | grep -v 'tcbfuncs.o$'}
+ libmisc_a_OBJ = `{ls libmisc/*.c | sed 's/.$/o/' | grep -v 'xgetXXbyYY.o$'}
+ useradd_OBJ = src/useradd.o

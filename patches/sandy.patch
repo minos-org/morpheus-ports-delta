@@ -7,3 +7,14 @@
 -git = git://git.suckless.org/sandy
 +git = http://git.suckless.org/sandy
  mkfile = ../sandy.mk
+--- sandy/sandy.mk	2015-04-05 10:54:07.404139569 +0300
++++ sandy/sandy.mk.new	2015-05-30 09:22:21.318092496 +0300
+@@ -3,7 +3,7 @@
+ INSTALL_BIN = sandy
+ INSTALL_MAN1 = `{ls *.1}
+ NPROC = $nprocs
+-DEPS = ncurses
++DEPS = ncurses git
+ 
+ <$mkbuild/mk.common
+ <../v.mk

@@ -1,0 +1,11 @@
+--- dvtm/dvtm.mk	2015-04-05 10:54:07.393139409 +0300
++++ dvtm/dvtm.mk.new	2015-05-30 07:46:06.930521776 +0300
+@@ -5,7 +5,7 @@
+ v = `{grep ^VERSION config.mk | cut -f 3 -d ' '}
+ LOCAL_CFLAGS = -std=c99 -DVERSION=\"$v\"
+ LOCAL_LDFLAGS = -lncursesw
+-DEPS = ncurses
++DEPS = ncurses git
+ 
+ <$mkbuild/mk.default
+ CFLAGS =

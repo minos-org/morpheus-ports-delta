@@ -1,0 +1,9 @@
+--- sinit/sinit.mk	2015-04-05 10:54:07.404139569 +0300
++++ sinit/sinit.mk.new	2015-05-30 09:31:34.348527208 +0300
+@@ -1,5 +1,6 @@
+ BIN = sinit
+ OBJ = sinit.o
++DEPS = git
+ INSTALL_BIN = sinit
+ INSTALL_MAN8 = sinit.8
+ INSTALL_SYMLINK = sinit /bin/init

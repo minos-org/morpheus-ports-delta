@@ -1,0 +1,9 @@
+--- pkgtools/pkgtools.mk	2015-04-05 10:54:07.403139555 +0300
++++ pkgtools/pkgtools.mk.new	2015-05-30 08:56:42.994324571 +0300
+@@ -1,5 +1,5 @@
+ TARG = pkgtools
+-DEPS = libarchive zlib
++DEPS = libarchive zlib git
+ 
+ <$mkbuild/mk.common-noinst
+ <../v.mk

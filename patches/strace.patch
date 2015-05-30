@@ -1,0 +1,10 @@
+--- strace/strace.mk	2015-04-05 10:54:07.404139569 +0300
++++ strace/strace.mk.new	2015-05-30 09:50:50.228025296 +0300
+@@ -4,6 +4,7 @@
+ 	strace \
+ 	strace-log-merge \
+ 	strace-graph
++DEPS = xz
+ 
+ <$mkbuild/mk.common
+ 

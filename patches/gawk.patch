@@ -1,0 +1,8 @@
+--- gawk/gawk.mk	2015-04-05 10:54:07.395139437 +0300
++++ gawk/gawk.mk.new	2015-05-30 08:01:28.800772069 +0300
+@@ -1,4 +1,5 @@
+ TARG = gawk
++DEPS = xz
+ 
+ INSTALL_BIN = gawk
+ INSTALL_MAN1 = doc/gawk.1

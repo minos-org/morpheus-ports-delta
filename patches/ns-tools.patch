@@ -1,0 +1,7 @@
+--- ns-tools/ns-tools.mk	2015-04-05 10:54:07.402139541 +0300
++++ ns-tools/ns-tools.mk.new	2015-05-30 08:53:33.617002338 +0300
+@@ -1,3 +1,4 @@
++DEPS = git
+ INSTALL_BIN = `{find bin -type f}
+ 
+ <$mkbuild/mk.common

@@ -1,0 +1,10 @@
+--- sbase/sbase.mk	2015-04-05 10:54:07.404139569 +0300
++++ sbase/sbase.mk.new	2015-05-30 09:26:06.472106410 +0300
+@@ -5,6 +5,7 @@
+ INSTALL_BIN = `{ls *.c | sed 's/..$//' | grep -v '^cp$\|^tar$\|^grep$'}
+ INSTALL_MAN1 = `{ls *.1 | grep -v '^cp\.1$\|^tar\.1$\|^grep\.1$'}
+ NPROC = $nprocs
++DEPS = git
+ 
+ <$mkbuild/mk.common
+ 

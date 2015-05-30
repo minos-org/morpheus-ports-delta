@@ -1,0 +1,8 @@
+--- scron/scron.mk	2015-04-05 10:54:07.404139569 +0300
++++ scron/scron.mk.new	2015-05-30 09:27:10.588963390 +0300
+@@ -1,4 +1,5 @@
+ TARG = scron
++DEPS = git
+ 
+ <$mkbuild/mk.common-noinst
+ 

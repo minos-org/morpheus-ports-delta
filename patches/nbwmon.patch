@@ -1,0 +1,10 @@
+--- nbwmon/nbwmon.mk	2015-04-05 10:54:07.402139541 +0300
++++ nbwmon/nbwmon.mk.new	2015-05-30 08:51:34.277539748 +0300
+@@ -3,6 +3,6 @@
+ INSTALL_BIN = nbwmon
+ LOCAL_CFLAGS = -std=c99
+ LOCAL_LDFLAGS = -lncursesw
+-DEPS = ncurses
++DEPS = ncurses git
+ 
+ <$mkbuild/mk.default

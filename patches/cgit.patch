@@ -1,0 +1,11 @@
+--- cgit/cgit.mk	2015-04-05 10:54:07.392139394 +0300
++++ cgit/cgit.mk.new	2015-05-30 07:39:15.210439129 +0300
+@@ -2,7 +2,7 @@
+ #       see: cgit-dlsym.patch
+ # TODO: -DNO_LUA=1 ?
+ TARG = cgit
+-DEPS = git openssl lua zlib
++DEPS = git openssl lua zlib xz
+ BIN = cgit
+ OBJ = `{ ls *.c | sed 's/.$/o/'}
+ 

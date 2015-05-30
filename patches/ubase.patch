@@ -1,0 +1,10 @@
+--- ubase/ubase.mk	2015-04-05 10:54:07.405139583 +0300
++++ ubase/ubase.mk.new	2015-05-30 09:54:22.164847421 +0300
+@@ -6,6 +6,7 @@
+ INSTALL_MAN1 = `{ls *.1}
+ INSTALL_MAN8 = `{ls *.8}
+ NPROC = $nprocs
++DEPS = git
+ 
+ <$mkbuild/mk.common
+ 

@@ -1,0 +1,10 @@
+--- sdhcp/sdhcp.mk	2015-04-05 10:54:07.404139569 +0300
++++ sdhcp/sdhcp.mk.new	2015-05-30 09:28:42.965211925 +0300
+@@ -4,6 +4,7 @@
+ LOBJ = `{ls util/*.c | sed 's/.$/o/'}
+ INSTALL_BIN = sdhcp
+ INSTALL_MAN1 = sdhcp.1
++DEPS = git
+ 
+ <$mkbuild/mk.common
+ 

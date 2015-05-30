@@ -1,0 +1,10 @@
+--- meh/meh.mk	2015-04-05 10:54:07.401139527 +0300
++++ meh/meh.mk.new	2015-05-30 08:47:02.388209987 +0300
+@@ -1,6 +1,6 @@
+ BIN = src/meh
+ DEPS = xorglibx11 xorglibxcb xorglibxdmcp xorglibxau xorglibxext \
+-	xorgprotoall libgiflib libjpegturbo libpng zlib
++	xorgprotoall libgiflib libjpegturbo libpng zlib git
+ INSTALL_BIN = src/meh
+ INSTALL_MAN1 = doc/meh.1
+ src_meh_OBJ = `{ls -1 src/*.c | sed 's/.$/o/'}

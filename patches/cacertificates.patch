@@ -9,3 +9,21 @@
  mkfile = ../cacertificates.mk
  
  patches = \
+--- cacertificates/cacertificates.mk	2015-04-05 10:54:07.392139394 +0300
++++ cacertificates/cacertificates.mk.new	2015-05-30 07:26:33.152809306 +0300
+@@ -1,5 +1,6 @@
+ # make deps: run-parts (busybox has this).
+ TARG = cacertificates
++DEPS = xz
+ 
+ <$mkbuild/mk.common-noinst
+ 
+--- cacertificates/cacertificates.mk	2015-04-05 10:54:07.392139394 +0300
++++ cacertificates/cacertificates.mk.new	2015-05-30 07:26:33.152809306 +0300
+@@ -1,5 +1,6 @@
+ # make deps: run-parts (busybox has this).
+ TARG = cacertificates
++DEPS = xz
+ 
+ <$mkbuild/mk.common-noinst
+ 

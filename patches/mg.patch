@@ -1,0 +1,9 @@
+--- mg/mg.mk	2015-04-05 10:54:07.401139527 +0300
++++ mg/mg.mk.new	2015-05-30 08:48:46.392483292 +0300
+@@ -1,5 +1,5 @@
+ TARG = mg
+-DEPS = ncurses
++DEPS = ncurses git
+ INSTALL_BIN = mg
+ INSTALL_MAN1 = mg.1
+ 
